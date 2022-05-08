@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pseudoscience-in-twitter"
+version = "0.1.0"
+description = ""
+authors = ["zodiacfirework <martin.vuelta@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.4"
+jupyterlab = "^3.4.0"
+Flask = "^2.1.2"
+tweepy = "^4.9.0"
+pandas = "^1.4.2"
+matplotlib = "^3.5.2"
+requests = "^2.27.1"
+beautifulsoup4 = "^4.11.1"
+nltk = "^3.7"
+spacy = "^3.3.0"
+XlsxWriter = "^3.0.3"
+sklearn = "^0.0"
+scipy = "^1.8.0"
+gensim = "^4.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
